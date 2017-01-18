@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page-elements>
+
+  <page-element no="1">
+    <type></type>
+    <id></id>
+    <name></name>
+    <className></className>
+    <cssSelector>.achievement.achievement-unlocked.ui-corner-all</cssSelector>
+    <xPath></xPath>
+    <linkText></linkText>
+	<data>31aug1</data>
+  </page-element>
+  
+  <page-element no="2">
+    <type></type>
+    <id></id>
+    <name></name>
+    <className></className>
+    <cssSelector></cssSelector>
+    <xPath></xPath>
+    <linkText></linkText>
+	<data>wel1</data>
+  </page-element>
+  
+  <page-element no="3">
+    <type></type>
+    <id></id>
+    <name></name>
+    <className></className>
+    <cssSelector></cssSelector>
+    <xPath></xPath>
+    <linkText></linkText>
+	<data></data>
+  </page-element>
+  
+ 
+  
+  </page-elements>  

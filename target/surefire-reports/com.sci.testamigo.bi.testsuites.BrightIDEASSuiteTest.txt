@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: com.sci.testamigo.bi.testsuites.BrightIDEASSuiteTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.006 sec <<< FAILURE! - in com.sci.testamigo.bi.testsuites.BrightIDEASSuiteTest
+BrighIdeasRunner(com.sci.testamigo.bi.testsuites.BrightIDEASSuiteTest)  Time elapsed: 0.005 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: this.getChromeWindowFromDocumentWindow(...) is undefined
+Command duration or timeout: 30.08 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'SCII1-PC', ip: '192.168.100.116', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9cb8ddfc-658f-44ca-a13d-68d52978ba2f
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:945)
+	at com.sci.testamigo.bi.util.PageCommonWD.<init>(PageCommonWD.java:20)
+	at com.sci.testamigo.bi.util.PageCommonWD.getOpenBrowserHelp(PageCommonWD.java:25)
+	at com.sci.testamigo.bi.util.AppSetup.<init>(AppSetup.java:23)
+	at com.sci.testamigo.bi.testsuites.BrightIDEASSuiteTest.<init>(BrightIDEASSuiteTest.java:22)
+Caused by: org.openqa.selenium.WebDriverException: this.getChromeWindowFromDocumentWindow(...) is undefined
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'SCII1-PC', ip: '192.168.100.116', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.maximizeWindow(file:///C:/Windows/TEMP/anonymous8746636842775995542webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:11140)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Windows/TEMP/anonymous8746636842775995542webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Windows/TEMP/anonymous8746636842775995542webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:625)
+
